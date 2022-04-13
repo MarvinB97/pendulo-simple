@@ -1,0 +1,68 @@
+
+/*----PAGINA-----*/
+
+body{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: rgb(39, 39, 39);
+  color: aliceblue;
+  margin-top: 0px;
+}
+
+section{
+  text-align: center;
+  background-color: rgb(136, 136, 126);
+}
+
+button{
+  background-color: rgb(73, 70, 70);
+  color: aliceblue;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(107, 103, 103);
+}
+
+/*----PENDULO-----*/
+div#barra{
+    background: black;
+    width: 2px;
+    /*Posicion del element*/
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    /*para no alterar en la transformacion, posiciona el eje de la barra en la parte superior*/
+    transform-origin: top;
+  }
+  
+  div#objeto{
+    background:blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: -9px;
+  }
+  
+h3{
+  /*position: absolute;*/
+  margin-top: 250px;
+}
+
+input{
+  display: block;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: rgb(39, 39, 39);
+  position:fixed;
+  bottom:0px;
+  color: aliceblue;
+}
+
